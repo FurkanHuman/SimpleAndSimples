@@ -9,8 +9,9 @@ namespace SimpleAndSimples_1
         public int Id { get; set; }
         public string Name { get; set; }
         public string FileName { get; set; }
-        public DateTime MoveYear { get; set; }
-        public double IMDBScore { get; set; }
+        public int MoveYear { get; set; }
+        public double IMDBRate { get; set; }
+        public bool SeriesOfMovie { get; set; }
 
     }
 }

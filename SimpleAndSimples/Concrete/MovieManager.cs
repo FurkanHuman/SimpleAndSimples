@@ -8,7 +8,7 @@ namespace SimpleAndSimples_1
     {
         public void Add(Movie movie)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(movie.Name+"("+movie.MoveYear+")"+" Adlı Film Kütüphaneye Eklenmiştir ");
         }
 
         public void Delete()
